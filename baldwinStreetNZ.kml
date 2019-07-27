@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Directions from 294 North Rd, North East Valley, Dunedin 9010, New Zealand to 4 Buchanan St, North East Valley, Dunedin 9010, New Zealand</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Directions from 294 North Rd, North East Valley, Dunedin 9010, New Zealand to 4 Buchanan St, North East Valley, Dunedin 9010, New Zealand</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          170.53266,-45.848,0
+          170.53272,-45.84804,0
+          170.53289,-45.84818,0
+          170.53306,-45.84831,0
+          170.53324,-45.84844,0
+          170.53342,-45.84858,0
+          170.53351,-45.84865,0
+          170.53359,-45.84871,0
+          170.53377,-45.84884,0
+          170.53394,-45.84897,0
+          170.53412,-45.8491,0
+          170.5343,-45.84923,0
+          170.53448,-45.84936,0
+          170.53465,-45.84949,0
+          170.53483,-45.84962,0
+          170.53501,-45.84976,0
+          170.53518,-45.84989,0
+          170.53536,-45.85002,0
+          170.53546,-45.8501,0
+          170.53553,-45.85015,0
+          170.53571,-45.85028,0
+          170.53589,-45.85041,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>294 North Rd, North East Valley, Dunedin 9010, New Zealand</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          170.532662,-45.8479976,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4 Buchanan St, North East Valley, Dunedin 9010, New Zealand</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          170.5358935,-45.8504093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
